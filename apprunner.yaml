@@ -17,4 +17,4 @@ run:
     port: 8000
   secrets:
     - name: DATABASE_URL
-      value-from: "<replace-with-param-arn>"
+      value-from: "arn:aws:ssm:us-west-2:779306198689:parameter/fastapi-neon/DATABSE_URL"
